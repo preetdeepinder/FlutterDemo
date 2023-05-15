@@ -1,7 +1,7 @@
 //THIS is NewsTile.dart
 //Now u do
 import 'package:flutter/material.dart';
-import 'package:virk_tiles/Screens/ArticleDetails.dart';
+import 'package:virk_tiles/screens/shoponline.dart';
 
 class NewsTile extends StatelessWidget {
   final String title;

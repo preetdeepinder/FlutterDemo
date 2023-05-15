@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-import 'package:virk_tiles/widget/NewsTile.dart'; //Yup it has been imported here our new widget
+import 'package:virk_tiles/NewsTile.dart'; //Yup it has been imported here our new widget
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class OurServices extends StatefulWidget {
+  const OurServices({Key? key}) : super(key: key);
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<OurServices> createState() => _OurServicesState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _OurServicesState extends State<OurServices> {
   bool loading = true;
   List<Map<String, dynamic>> articles = [];
 
